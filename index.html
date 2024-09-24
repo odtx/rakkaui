@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Rakka UI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%), url('https://www.transparenttextures.com/patterns/sos.png');
+            background-blend-mode: multiply;
+            background-size: cover;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+            animation: fadeIn 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0.5;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Rakka UI</h1>
+    </div>
+</body>
+</html>
